@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Pacifico&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+body,html{
+    height: 100%;
+}
+section {
+    margin: 0 1em;
+}
+header {
+    padding: 6em 0;
+    text-align: center;
+}
+.head-bg a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.pun{
+    font-family:'Pacifico', cursive;
+    text-align: center;
+}
+.head-bg section{
+    width:45%;
+}
+.head-bg{
+    background: #307D99 url('pic/coro.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: left;
+    
+}
+
+h6{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-right:0;
+    text-align: center;
+    padding-top:5em;
+    padding-left: 5em;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin:2em 0 1.2em;
+}
+h1 .virus{
+    color: red;
+}
+.head-bg p{
+    font-weight: lighter;
+    margin:0 1em 3em;
+}
+.form{
+    background-color: white;
+    margin: 2em 0;
+    color:#307D99; 
+    padding:2em;
+    border-radius: .5em;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+}
+form{
+    display: flex;
+}
+.form-left{
+    width:70%;
+}
+label{
+    color: #2D7D98;
+    font-weight: bold;
+    display: block;
+    margin:0;
+    font-size: 1.2em;
+}
+input[type='text']{
+    border:1px solid #707070;
+    width:90%;
+    height: 40%;
+    padding:1em;
+    margin-right: 0em;
+    box-sizing: border-box;
+    border-radius: .5em;
+    margin-top: 1.2em;
+}
+input[type='button']{
+    background-color: #F89104;
+    border: none;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    height: fit-content;
+    font-size: 1.1em;
+    margin-left: 1em;
+    margin-top: 2.8em;
+    padding:.7em 0;
+    width: 30%;
+
+}
+.form p {
+    color: gray;
+    margin-bottom: 1.5em;
+    font-weight: normal;
+    font-size: .9em;
+    margin-top: .3em;
+}
+input[type='button']:hover{
+    background-color: red;
+}
+section.Myths{
+    margin:.3em 0;
+}
+div.fake-content{
+    grid-area: content;
+    text-align: left;
+    align-self: center;
+    padding:2em;
+}
+img{
+    width:100%;
+}
+
+ul{
+    font-weight: bold;
+
+}
+.gk h1{
+    text-align: center;
+    margin-top:2em;
+}
+.cta--cyan .cta__wrap, .cta--cyan  .cta--cyan .cta__wrap {
+    background: #009aa6;
+}
+.cta__wrap:last-of-type  {
+    margin-bottom: 0;
+}
+.cta__wrap, .cta--blue .cta__wrap, .cta--blue .rtf .cta__wrap, .cta--cyan .cta__wrap, .cta--cyan .rtf .cta__wrap, .cta--cyan.one-line .cta__wrap, .cta--cyan.one-line .rtf .cta__wrap, .cta--video .cta__wrap, .cta--video .rtf .cta__wrap, .rtf .cta__wrap, .rtf .cta--cyan.one-line .cta__wrap {
+    padding: 1rem;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.cta--cyan, .rtf .cta--cyan {
+    max-width: 950px;
+    background: url('pic/background.jpg');
+}
+.cta, .cta--blue, .rtf .cta--blue, .cta--cyan, .rtf .cta--cyan, .cta--video, .rtf .cta--video, .rtf .cta {
+    /* margin: 1.25rem -1rem; */
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+@media (max-width:600px){
+    .head-bg {
+        text-align: center;
+        padding-bottom: 4em;
+    }
+    header {
+        padding: 2em 0 0 0;
+    }
+    h1{
+        font-size: 1.4rem;
+        margin-top:.8em ;
+        margin-bottom: 0.2em;
+    }
+    h1 span {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .head-bg a{
+        color: white;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: .8rem;
+
+    }
+    
+    h1 span::before {
+        content: ' ';
+        position: absolute;
+        width: 3em;
+        background: #00BFFF;
+        height: .2em;
+        bottom: 0;
+        z-index: -1;
+        margin-left: -.3em;
+    }
+    .form {
+        background-color: white;
+        margin: 2em -1em 0;
+        padding: 2em;
+    }
+    
+    label {
+        color: #2D7D98;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 1em;
+        font-size: 1.2em;
+    }
+    
+    input[type=text] {
+        border: 1px solid #707070;
+        width: 100%;
+        padding: 1em;
+        box-sizing: border-box;
+        border-radius: .5em;
+        margin-top: 1.2em;
+    }
+    
+    .form p {
+        color: gray;
+        margin-bottom: 1.5em;
+        font-weight: normal;
+        font-size: .9em;
+        margin-top: .3em;
+    }
+    
+    input[type=button] {
+        background-color: #F89104;
+        border: none;
+        width: 100%;
+        color: white;
+        font-weight: bold;
+        padding: 1em 0;
+        border-radius: .5em;
+        font-size: 1.3em;
+        cursor: pointer;
+    }
+    
+    input[type=button]:hover {
+        background-color: rgb(216, 126, 1);
+    }
+}
+.head {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    body {
+      margin-bottom: 500px;
+    }
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}

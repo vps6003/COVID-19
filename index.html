@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 sticky-top">
+      <a href="#" class="navbar-brand"><img src="https://img.icons8.com/officel/16/000000/virus.png"/></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks" >
+          <ul class="navbar-nav ">
+              <li class="nav-item" >
+                  <a href="index.html" class="nav-link">HOME</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#about" class="nav-link">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#fake" class="nav-link">MYTHS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#facts" class="nav-link">FACTS & STATS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#sym" class="nav-link">SYMPTOMS</a>
+              </li>
+              <li class="nav-item">
+                <a href="/download/corona_about.pdf" class="nav-link" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+    <div class="head-bg">
+        <section class='head'>
+            <header><a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019' >KEEP CALM AND WASH YOUR HANDS<span style='font-size:.6em;color:red;'> AND CLICK HERE!</span></a></header>
+            <div class="heading">
+                <h1>CORONA<span class="virus danger">VIRUS</span></h1>
+            </div>
+            <div class='row' style='margin-bottom:1em;'>
+                <div class="card border-info mb-3" style="width: 10rem;margin:.5rem">
+                    <div class="card-header text-info">Confirmed Cases</div>
+                    <div class="card-body text-info">
+                      <h5 class="card-title text-info" id="total">0</h5>
+                    </div>
+                </div>
+                <div class="card border-danger mb-3" style="width: 10rem;margin:.5rem";>
+                    <div class="card-header text-danger">Confirmed Deaths</div>
+                    <div class="card-body text-danger">
+                    <h5 class="card-title" id="death">0</h5>
+                    </div>
+                </div>
+                <!-- <div class="card border-success mb-3" style="width: 10rem;margin:.5rem">
+                    <div class="card-header text-success">Total Recoverd</div>
+                    <div class="card-body text-success">
+                      <h5 class="card-title text-success" id="recoverd">0</h5>
+                    </div>
+                </div> -->
+            </div>
+            <p>For detailed stats <a href="https://ncov2019.live/" type='button' class='btn btn-outline-info text-danger' style="padding:.1em" id='bico'>click here</a></p>
+        </section>
+    </div>
+    <a name='about'></a>
+    <section class='Myths'>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="pic/fake_news.jpg" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="right-col">
+                    <div class="fake-content">
+                        <h2>Help Us Fight <span style='color:red;font-weight: bold;'>Fake News</span></h2>
+                        <p style="font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;"> 
+                            According to the WHO, the most common symptoms of Covid-19 are fever, tiredness and a dry cough. Some patients may also have a runny nose, sore throat, nasal congestion and aches and pains or diarrhoea. About 80% of people who get Covid-19 experience a mild case – about as serious as a regular cold – and recover without needing any special treatment.
+                            There have been over 11,000 deaths globally!
+                            <h5 style='color:brown;'>It's important to fight false news in this tough situation.</h5> 
+                            <h3>What to Look For:</h3>
+                            <ul>
+                                <li>Source</li>
+                                <li>Logo</li>
+                                <li>Bad English</li>
+                                <li>Over Encourangement to Share</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name='fake'></a>
+    <section class='gk '>
+        <h1>Myths About <span style='color:red;font-weight: bolder;'>Corona</span></h1>
+            <div class="row">
+                <div class="thumbnail col-lg-4" style="width: 35rem; padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/mythbuster-4.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/mythbuster-2.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/mythbuster-3.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img    -top" src="pic/mythbusters-25.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/mythbusters-27.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/mythbusters-31.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/mythbusters-33.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/11.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/19.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/23.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/52.png" alt="Card image cap">
+                </div>
+                <div class="thumbnail col-lg-4" style="width: 35rem;padding-bottom: 1em;">
+                    <img class="card-img-top" src="pic/mb-hot-bath.png" alt="Card image cap">
+                </div>
+            </div>
+    </section>
+    <a name='facts'></a>
+    <section class='facts-stat'>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="cta--cyan js-cta" data-anchor="What You Need to Know">
+                    <div class="cta__wrap">
+                            <span class="cta__label" style="background-color: rgba(0, 0, 0, .48); color:white;padding:0.2em 0.5em"; >
+                                        <span class="icon-alert"><i class="fa fa-exclamation-circle" aria-hidden="true" style="color: yellow;"></i></span> What You Need to Know
+                            </span>
+                            <h4 class="cta__title" style="font-family: sans-serif; color: white; padding-left: 2em; padding-top: .6em;">COVID-19</h4>
+                        <ul style="color: white; font-weight: lighter;">
+                            <li>COVID-19 is the disease caused by the new coronavirus that emerged in China in December 2019.</li>
+                            <li>COVID-19 symptoms include cough, fever and shortness of breath. COVID-19 can be severe, and some cases have caused death.</li>
+                            <li>The new coronavirus can be spread from person to person. It is diagnosed with a laboratory test.</li>
+                            <li>There is no coronavirus vaccine yet. Prevention involves frequent hand-washing, coughing into the bend of your elbow and staying home when you are sick.</li>
+                        </ul>
+            
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" style="text-align: center;margin-top: 2em;">
+                <div class="rtf">
+                    <h4 data-anchor = "What Is Coronavirus?" style="font-size: xx-large;" > What Is Coronavirus? </h4>
+                    <figure class="video full">    
+                    <div class="video__wrap">
+                                <iframe title="What Is Coronavirus?" src="https://www.youtube.com/embed/sHP0UIdZyI4?rel=0&amp;amp;showinfo=0" allowfullscreen=""></iframe>
+                        </div>
+                    </figure>
+                    <p>As of now, there is not a specific treatment for the virus. People who become sick from COVID-19 should be treated with supportive measures: those that relieve symptoms. For severe cases, there may be additional options for treatment, including research drugs and therapeutics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name='sym'></a>
+    <section class='symptoms'>
+        <img src="pic/symptom.jpg" style='height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;'>
+    </section>
+    <footer class="footer" style='margin-top: .2em;margin-right: 1em; margin-left: 1em;'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h5><i class="fa fa-road"></i> Vaibhav Prakash Saraf</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#fake">Facts</a></li>
+                                <li><a href="#sym">SYMPTOMS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="https://www.facebook.com/profile.php?id=100001128038030" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="https://www.facebook.com/profile.php?id=100001128038030" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="https://github.com/vps6003" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                        <li class="nav-item"><a href="https://www.instagram.com/vps_6003/" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="text-md-right" style="margin-top: .7em;">Contact Us</h5>
+                    <hr>
+                </div>
+                <div class="col-md-5">
+                    <form>
+                        <fieldset class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" >
+                        </fieldset>
+                    
+                        <fieldset class="form-group text-xs-right">
+                            <button type="button" class="btn btn-secondary-outline btn-lg" style='margin-left: .5em;'>Send</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+    function getCount(){
+        fetch('https://api.covid19api.com/world/total')
+        .then(res=>res.json())
+        .then(data=>{
+            document.getElementById('total').innerHTML=data.TotalConfirmed;
+            document.getElementById('death').innerHTML=data.TotalDeaths;
+            document.getElementById('recoverd').innerHTML=data.TotalRecovered;
+        })
+    }
+    getCount();
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
